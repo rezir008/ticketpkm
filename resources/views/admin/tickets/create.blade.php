@@ -5,7 +5,6 @@
     <div class="card-header">
         {{ trans('global.create') }} {{ trans('cruds.ticket.title_singular') }}
     </div>
-
     <div class="card-body">
         <form action="{{ route("admin.tickets.store") }}" method="POST" enctype="multipart/form-data">
             @csrf
@@ -126,7 +125,7 @@
                 </div>
             @endif
             <div>
-                <input class="btn btn-danger" type="submit" value="{{ trans('global.save') }}">
+                sdsds<input class="btn btn-danger" type="submit" value="{{ trans('global.save') }}">
             </div>
         </form>
 
