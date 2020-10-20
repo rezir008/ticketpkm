@@ -1,13 +1,18 @@
 @extends('layouts.auth')
+@section('styles')
+<style>
+    body {
+        background-color: rgb(7, 172, 172);
+    }
+</style>
+@endsection
 @section('content')
 <div class="row justify-content-center">
     <div class="col-md-6">
         <div class="card mx-4">
             <div class="card-body p-4">
-                <h1>{{ trans('panel.site_title') }}</h1>
-
-                <p class="text-muted">{{ trans('global.login') }}</p>
-
+                <h3 class="text-center">Support Ticketing System <br> LPSE Provinsi Kalimantan Selatan</h3>
+                <hr class="text-center w-25 mb-5" style="border: 1px solid black;">
                 @if(session('status'))
                     <div class="alert alert-success" role="alert">
                         {{ session('status') }}

@@ -125,7 +125,7 @@
                 </div>
             @endif
             <div>
-                sdsds<input class="btn btn-danger" type="submit" value="{{ trans('global.save') }}">
+                <input class="btn btn-danger" type="submit" value="{{ trans('global.save') }}">
             </div>
         </form>
 
