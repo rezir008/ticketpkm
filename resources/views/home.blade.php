@@ -20,7 +20,7 @@
                             <div class="card text-white bg-primary">
                                 <div class="card-body pb-3">
                                     <div class="text-value">{{ number_format($totalTickets) }}</div>
-                                    <div>Total Tiket</div>
+                                    <div>Total Tickets</div>
                                     <br />
                                 </div>
                             </div>
@@ -30,7 +30,7 @@
                             <div class="card text-white bg-danger">
                                 <div class="card-body pb-3">
                                     <div class="text-value">{{ number_format($openTickets) }}</div>
-                                    <div>Tiket Masuk</div>
+                                    <div>Entrance Tickets</div>
                                     <br />
                                 </div>
                             </div>
@@ -40,7 +40,7 @@
                             <div class="card text-white bg-info">
                                 <div class="card-body pb-3">
                                     <div class="text-value">{{ number_format($closedTickets) }}</div>
-                                    <div>Tiket Selesai Minggu Ini</div>
+                                    <div>Tickets Completed This Week</div>
                                     <br />
                                 </div>
                             </div>
@@ -50,7 +50,7 @@
                             <div class="card text-white bg-primary">
                                 <div class="card-body pb-3">
                                     <div class="text-value">{{ number_format($closedTickets) }}</div>
-                                    <div>Tiket Selesai Bulan Ini</div>
+                                    <div>Tickets Completed This Month</div>
                                     <br />
                                 </div>
                             </div>
@@ -60,7 +60,7 @@
                             <div class="card text-white bg-success">
                                 <div class="card-body pb-3">
                                     <div class="text-value">{{ number_format($closedTickets) }}</div>
-                                    <div>Tiket Selesai Tahun Ini</div>
+                                    <div>Tickets Completed This year</div>
                                     <br />
                                 </div>
                             </div>
@@ -70,7 +70,7 @@
                             <div class="card text-white bg-success">
                                 <div class="card-body pb-3 text-center">
                                     <div class="text-value">{{ number_format($closedTickets) }}</div>
-                                    <div>Tiket Terbaru</div>
+                                    <div>Latest Tickets</div>
                                     <br />
                                 </div>
                             </div>
@@ -80,7 +80,7 @@
                             <div class="card text-white bg-info">
                                 <div class="card-body pb-3 text-center">
                                     <div class="text-value">{{ number_format($closedTickets) }}</div>
-                                    <div>Tiket Darurat Yang Tersedia</div>
+                                    <div>Available Alert Tickets</div>
                                     <br />
                                 </div>
                             </div>
@@ -90,7 +90,7 @@
                             <div class="card text-white bg-primary">
                                 <div class="card-body pb-3 text-center">
                                     <div class="text-value">{{ number_format($totalTickets) }}</div>
-                                    <div>Total Tiket</div>
+                                    <div>Total Tickets</div>
                                     <br />
                                 </div>
                             </div>
