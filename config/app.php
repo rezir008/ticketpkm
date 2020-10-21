@@ -13,11 +13,7 @@ return [
     |
     */
 
-<<<<<<< HEAD
-    'name' => env('APP_NAME', 'Support Ticketing System LPSE'),
-=======
     'name' => env('APP_NAME', 'Support Ticketing'),
->>>>>>> 519ed7abd2299b1a812b3fe236fb8cba1df0167c
 
     /*
     |--------------------------------------------------------------------------
